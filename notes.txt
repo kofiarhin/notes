@@ -1,0 +1,733 @@
+//learn about magic
+
+///mic url
+https://www.amazon.co.uk/Blue-Recording-Streaming-Condenser-Adjustable/dp/B00N1YPXW2/ref=sr_1_1?crid=29LMPCV3YK4MF&dchild=1&keywords=blue%2Byeti%2Bpro%2Busb%2Bmicrophone&qid=1615205212&quartzVehicle=106-1349&replacementKeywords=blue%2Bpro%2Busb%2Bmicrophone&sprefix=blue%2Byeti%2Bpro%2B%2Caps%2C276&sr=8-1&th=1
+
+
+---import boostrap scss
+npm i bootstrap
+import "~bootstarp/scss/bootstrap"
+
+--CDNS
+
+---fontawesome
+---tested
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+or
+
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/96ccaaca81.js" crossorigin="anonymous"></script>
+
+
+
+----Fonts
+
+-- Poppins
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,300&display=swap" rel="stylesheet">
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+---Quik Sand
+
+----link
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+----css
+html , body {
+font-family: 'Quicksand', sans-serif;
+}
+
+
+---Fira Sans
+
+---link
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+---css
+font-family: 'Fira Sans', sans-serif;
+
+----Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap')
+html, body {
+    font-family: 'Open Sans', sans-serif
+
+}
+
+//////ADD LINK TO README GITHUB
+# [Live Demo](https://escowear.herokuapp.com/)
+
+h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+}
+
+---APIS
+
+-----THE MOVIESDB API-------
+
+---api key
+ca357c71903c409f2ce08d61e75700a6
+
+---MOVIES---
+
+--get popular movies
+https://api.themoviedb.org/3/movie/popular?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US&page=1
+
+--search movies
+--https://api.themoviedb.org/3/search/movie?query=avengers&api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US&page=1&include_adult=false
+
+
+---get latest movies
+https://api.themoviedb.org/3/movie/latest?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US
+
+--trending
+https://api.themoviedb.org/3/trending/all/day?api_key=ca357c71903c409f2ce08d61e75700a6&page=1
+
+
+--get movie detail
+https://api.themoviedb.org/3/movie/697741?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US
+
+
+---get movie genres
+https://api.themoviedb.org/3/genre/movie/list?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US
+
+
+
+---SERIES----
+
+---get popular series
+https://api.themoviedb.org/3/tv/popular?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US&page=1
+
+---search tv shows
+----https://api.themoviedb.org/3/search/tv?query=suits&api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US&page=1&include_adult=false
+
+---get series detail eg: series id = 93533
+https://api.themoviedb.org/3/tv/93533?api_key=ca357c71903c409f2ce08d61e75700a6&language=en-US
+
+
+
+--backdrop
+https://image.tmdb.org/t/p/w1280/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg
+
+--poster
+<img src="https://image.tmdb.org/t/p/w1280/qGA31gx01iIJMgk2MyVgurhCGeO.jpg" />
+https://image.tmdb.org/t/p/w1280/qGA31gx01iIJMgk2MyVgurhCGeO.jpg
+
+---sample movie poster url
+--- https://miro.medium.com/max/1059/1*mLyoJd1Jpi4bxMwZhtQjHg.jpeg
+
+
+
+    ---Open Weather
+    email: mysocialmedia69@yahoo.com
+    password: Cantoment69
+    apikey: 9416fd85aeaf46aae2638dbf0f766109
+    --sample request
+      http://api.openweathermap.org/data/2.5/weather?lat=42.2358&lon=-96.4725&appid=9416fd85aeaf46aae2638dbf0f766109
+
+    ----sample cordinates
+    Longitude:-0.202815,
+    Latitude: 5.661083
+
+///green wallpaper url
+https://wallpaperaccess.com/green
+
+
+header {
+  "Accept": "application/json, text/plain,  */*",
+  "Content-Type": "application/json"
+}
+
+live reload article
+https://dev.to/rajeshroyal/how-to-live-reload-node-js-server-along-with-hot-reloading-2im0
+
+sample website for david to checkout - css grid
+https://the-glitter-collective.pixpa.com/
+
+//typing game
+https://10fastfingers.com/advanced-typing-test/english
+
+
+---Webpack Dependencies for development
+
+development dependencies
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+
+
+checkout emoji-mart.css for creating custom emoji
+react-color for creating colors for react project
+
+-----
+softwares
+garageband -- software for mic or screen recording
+edit movie imovie
+
+
+hardware
+lights:
+Safstar Photography Softbox Lighting Kit 24"x16" Socket Ligh Photo Portrait Studio Lighting Diffuser Soft Box Equipment (2 Softbox
+
+
+
+NODE NOTES
+-----------------
+
+----course torrent url
+https://1337x.to/torrent/3839736/Udemy-The-Complete-Node-js-Developer-Course-3rd-Edition-FTU/
+
+
+----useful npms
+--request
+    -for making http request
+
+--chalk
+    -used to color console.log messages
+
+--useful apis
+
+    ---darksky -- about shutting down/ find alternative  
+
+    ----http://puzzle.mead.io/puzzle //provides sample puzzle sentence for games like hangman
+
+    mapbox
+        username: 69esco 
+        password: Cantoment69
+        accesstoken: pk.eyJ1IjoiNjllc2NvIiwiYSI6ImNrZHI3aW83aTAzYzEydHBrcW4ya2kzbHYifQ.bn2VzXnXNeqO5dta7e8m7Q
+
+        --sample request
+        https://api.mapbox.com/geocoding/v5/mapbox.places/accra.json?access_token=pk.eyJ1IjoiNjllc2NvIiwiYSI6ImNrZHI3aW83aTAzYzEydHBrcW4ya2kzbHYifQ.bn2VzXnXNeqO5dta7e8m7Q&limit=1
+
+    climacell
+        email: mysocialmedia69@yahoo.com
+        password: Cantoment69
+        token: QeM08oJ488Ud10jTfk2DbC2SYbPw3VBB
+ 
+
+
+    --animated icons codepen
+    https://codepen.io/palimadra/pen/vfncA
+
+    --useful icon package
+        --skycon
+
+encodeURIComponent
+
+
+
+-- how to check if file exist node js
+
+var path = require('path'); 
+
+path.exists('foo.txt', function(exists) { 
+  if (exists) { 
+    // do something 
+  } 
+}); 
+
+// or 
+
+if (path.existsSync('foo.txt')) { 
+  // do something 
+} 
+
+----list of http status
+http://httpstatuses.com
+]
+
+---mongodb url
+    C:\Program Files\MongoDB\Server\4.0\bin
+
+
+----decode webtokens
+https://www.base64decode.org
+
+
+---qs library to be used to parse query strings
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+
+
+
+----------------- 
+Daily Schecdule(Monday - Friday)
+1. Wake up / Study with me video (4am - 6am)
+2. Workout @ 6:30am
+3. Rest 8am - 9am - prepare breakfast
+4. 9am - 1pm - Work/Study with me videos
+5. Class at 1:30pm - 3:30pm
+6. Workout  1hour workout 6pm - 7pm
+7. Prepare for the next day 8pm
+
+project idea
+---build fiverr  clone
+
+-icon finder
+https://www.iconfinder.com
+
+
+---fiver description
+I'm an enthusiast fullstack engineer and interested in web development. Javascript with Reactjs are my favorite programming language and framework of choice to develop a custom application for clients. I have been working in this field for four(4) years. I believe in quality, perfection, and speed.
+
+
+FIVERR GIG SAMPLE
+https://www.fiverr.com/dev_mohib/design-and-develop-full-stack-web-applications?context_referrer=user_page&ref_ctx_id=46280fdb-14b9-4863-8cac-512ea12418e6&pckg_id=1&pos=7
+
+
+
+About This Gig
+What I propose
+
+---
+
+What I propose is the responsive design of one or more pages of your website and/or mobile application. For this I would use the Adobe XD Software to design the models and Photoshop  to create the different graphic elements. For any command, I will submit the source files containing: the source document of the template (.fig for a figma file, .xd for an adobe Xd document), the images and graphic elements (.PNG/.SVG), and the templates in PNG format for the preview.
+
+
+
+My Request
+
+--
+
+
+In order to make my work as relevant as possible, I will ask you to provide me with some elements and indications if you have them. If you have the opportunity, could you provide me with:
+
+- Your brand logo,
+
+- Some images or addresses of sites that you like graphically,
+
+- the colors you would like for your site (in RGB or HEX).
+
+Again, these elements are not mandatory but they will allow me to submit templates that will correspond to you as much as possible
+
+Do not hesitate to contact me before placing your order so that we agree on your expectations and that I clearly identify the challenges of the desired product.
+
+
+
+Good day to you and see you soon
+
+Main Type
+
+Websites
+Mobile Apps
+Image File Format
+
+JPG
+PDF
+PNG
+PSD
+SVG
+----------------------
+scrollbar styling
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+------
+chat app url
+  https://kf-js-chat-app.herokuapp.com/
+------
+How to check heroku url
+heroku apps:info -s  | grep web_url | cut -d= -f2
+
+------
+
+00:00 - Introduction
+00:25 - 100 Daily UI Free
+01:06 - Free 100 Daily UI Challenge
+01:50 - Invision App
+02:42 - Uplabs
+03:39 - Undraw
+04:40 - Sketch App Sources
+05:25 - Paaatterns
+06:22 - Drawkit
+07:19 - ManyPixels
+08:21 - Humaaans
+09:08 - Avataaars
+09:44 - Freeillustration
+10:27 - Freebiesketch
+11:01 - Blush
+12:26 - IRA Design
+13:14 - UI Design Daily
+14:20 - UI Space
+15:46 - Open Doodles
+16:13 - Conclusion
+
+Design for Developers - Enhance UI
+A book I've created to help you improve the look of your apps and websites.
+📘 Enhance UI: https://www.enhanceui.com/
+
+-------------------------------
+
+Usefuls links for development
+
+Mustache library cdn, moment cdn, qs cdn- to parse url params
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+
+
+--------------------------------
+
+To do App List using javascript
+
+1. E Commerce ( Web + Mobile)
+2. Chatting App(done) 
+3. Hungry Food Delivery (Web + Mobile)
+4. Grocery ( Web + Mobile)
+5. Outride App ( Customer + Merchant + Rider)
+6. Food Delivery App ( Web + Mobile)
+7. Go Pick Me(Web + Mobile)
+8. Grab Cab ( Web + Mobile)
+9. React App Builder
+10. Smart Hospital Management System (Web + Mobile)
+11. Sweezy App ( User + Web + Delivery )
+12. Taxi (Web + Mobile)
+13. Ebook App( Web + Mobile)
+14. Garage CMS ( Web + Mobile)
+15. Theshops Multi vendor ( customer + store management + delivery)
+16. Go Taxi ( Web + Mobile)
+17. School Management System (Web + Mobile )
+18. Fiverr Clone
+19. Amazon clone
+20. Netflix clone
+
+----------------------------
+useful npm
+
+request
+chalk - display colors in console
+request npm - making and receiving http request
+    eg  make a request file
+        request.request
+            edit http://localhost:3000/api/users
+date-fn - date manipulations
+.env  -- for configuring environment variables
+
+----------------------------------------------
+
+download mp3 songs
+https://www.mp3juices.cc/
+
+----------------------------
+
+---video downloader
+https://en.savefrom.net/18/
+
+----------------------------------
+
+interesting read on firebase-server
+https://firebase.googleblog.com/2015/04/end-to-end-testing-with-firebase-server_16.html
+
+
+-------------------------------------
+
+------fonts like fontawesome
+http://fontello.com/
+
+--------------------------------------
+
+TOOLS
+---------------------------------------
+CDNS
+fontawesome
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css
+
+chart js
+https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js
+
+Vs Code Cheatsheet
+https://gist.github.com/kofiarhin/9fc2b0d5137f32a172ba891b409670fe
+
+-----------------------------------------------------
+
+///////////////DRAWER NAVIGATOR SETUP
+import { createAppContainer,  DrawerNavigator } from "react-navigation";
+
+
+//////google map apikey
+AIzaSyAHm9Qemt3x2e9gb_qD-Z1U3ENCs2BG0VI 
+
+
+///////////////////USEFUL PACKAGES
+
+react-native-router-flux  // import { Router, Scene }
+
+<Router> 
+       <Scene key="root"> 
+            <Scene key="Home" component={Home}> </Scene>
+       </Scene>
+</Router>
+
+
+//////////// HOW TO USE IMAGE IN README FILE GITHUB
+![Image description](link-to-image)
+
+![Image description](https://mir-s3-cdn-cf.behance.net/project_modules/fs/b5f24a96339111.5eac0000956e4.jpg)
+
+
+
+
+
+/////////// REACT NAVIGATION SETUP
+yarn add react-navigation react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated @react-native-community/masked-view react-native-safe-area-context 
+
+
+////REACT NATIVE APP CRASHING FIX
+
+npm install react-native-screens@^2.0.0-beta.2
+
+android/app/build.gradle
+
+implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+
+
+/////SETTING UP REACT-NATIVE-VECTOR-ICONS
+1. Copy fonts folder
+2. Unlink react-native vector icons
+3. Rerun react-native vector icons
+
+////////LINEAR GRADIENT SHORTCUT
+<LinearGradient
+    start={{x: 0.1, y:.6}} end={{x: 0.1, y: 1}}
+    locations={[0,9]}
+    colors={['rgba(0,0,0,.1)', 'rgba(0,0,0,1)']} style={{position:'absolute', top:0, left:0, right:0, bottom:0,flexDirection:'row',borderRadius:10,  }} >
+                                                      
+</LinearGradient> 
+
+
+///////HOW TO GET GOOGLE API KEY
+1. Visit the Google Cloud Platform Console.
+2. Click the project drop-down and select or create the project for which you want to add an API key.
+3. Click the menu button  and select APIs & Services > Credentials.
+4. On the Credentials page, click Create credentials > API key.
+The API key created dialog displays your newly created API key.
+5. Click Close.
+The new API key is listed on the Credentials page under API keys.
+(Remember to restrict the API key before using it in production.)
+
+
+
+
+////////GENERATE RANDROM USERS
+https://randomuser.me/api/?results=100
+
+
+/////// check on this repository
+https://github.com/birunidev/orderfood.git
+
+
+///heroku app url list
+--food delivery
+https://sheltered-retreat-60921.herokuapp.com/
+
+---escowear
+https://escowear.herokuapp.com/
+
+///////Regex stuff
+---valid email
+!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+
+////check this out later
+--- https://bruno-simon.com/
+
+
+/////covid 19 api
+ fetch(`https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=Canada`, {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
+            "x-rapidapi-key": "ccc10f3ba2msh6356568a9da23c7p100639jsn93478b647274"
+        }
+    })
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err => {
+            console.log(err);
+        });
+
+/////joblistiing  project sample url
+---- https://www.behance.net/gallery/69046835/UIUX-Design-Redesign-LinkedIn?tracking_source=search%7Clinkedin%20ui        
+
+
+
+//////shopping cart - react url
+---- https://github.com/lydiahallie/React-Ecommerce
+
+
+/////BOOKS
+--- notes from underground
+
+
+////open weather api
+---- api key
+12583ea318c65d2b7ff085c6ad9c612f
+
+
+//////INTERVIERW QUESTION
+A startup printing press wants to digitize its processes and needs a web application to help its customers lay out their designs. As a pilot, design a WYSIWYG designing tool for the customers to design their own postcards on their web platform. Customers should be able to pick background colours, position text, select fonts and position photos on their postcards. Customers should also be able to preview and save their designs before submitting for printing
+
+///interview help question
+Hi guys i have this assignment to submit......
+
+A startup printing press wants to digitize its processes and needs a web application to help its customers lay out their designs. As a pilot, design a WYSIWYG designing tool for the customers to design their own postcards on their web platform. Customers should be able to pick background colours, position text, select fonts and position photos on their postcards. Customers should also be able to preview and save their designs before submitting for printing......
+
+Can anyone point me in the right direction using javascript. Thanks
+//// tiny api key
+--- rxxemdikk9ln8tccpgx12yaw3t54z1870t61g368o7714b5d
+
+--tutorial url
+--https://codeburst.io/how-to-build-your-own-wysiwyg-editor-6002fa3f5ea8
+
+
+
+--- sample project
+--- https://codepen.io/saigowthamr/pen/OZmWqW?editors=1111
+--- https://grapesjs.com/demo.html
+--- https://codepen.io/chrisdavidmills/pen/gzYjag
+
+--- useful documentations
+--https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable
+-- https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand#Commands
+
+
+
+///// Read file in javascript tutorial
+---https://www.html5rocks.com/en/tutorials/file/dndfiles/
+
+
+
+///Webpack dev server images fix
+First - Make sure that you have installed url-loader, file-loader npm packages
+
+----webpack.config.js
+ output: {
+    path: path.join(__dirname, 'public'),
+    publicPath: 'http://localhost:8080/public/',
+    filename: 'bundle.js'
+  }
+
+
+   {
+    test: /\.(jpe?g|png|gif|svg)$/i,
+    include : path.join(__dirname, 'images'),
+    loader  : 'url-loader?limit=30000&name=images/[name].[ext]'
+ }
+
+ ---read this documentation later
+
+ webpack - loading images
+ ---https://webpack.js.org/guides/asset-management/#loading-images
+
+---useful resource
+https://github.com/bradtraversy/design-resources-for-developers#html-css-templates
+
+
+
+
+/////// set environ viriable through package.json
+{ 
+    "dev": "set NODE_ENV=production&& set privateKey=122434&& nodemon index.js"
+}
+
+
+////
+
+--22/08/2020
+at taeala now and it is not a bad place to be for some coding work
+
+git config --global user.name "your name"
+git config --global user.email "youremail@domain.com"
+
+---checkout this profile
+https://www.linkedin.com/in/tosin-t-olaosebikan-b39859a5/
+
+---favicon generator
+realfavicon generator
+
+--swapi api --- star wars api
+
+--enzyme library installation
+https://enzymejs.github.io/enzyme/
+npm i --save-dev enzyme enzyme-adapter-react-16
+
+
+--adding typescript to react
+https://create-react-app.dev/docs/adding-typescript
+
+SECURITY
+Libary to prevent sql injections
+--knex.js
+
+--use these to check third party libraries
+--npm install -g nsp - you no longer need to install this since it comes with npm now --thanks npm
+
+run npm check
+
+npm install -g snyk
+run 
+synk test
+snyk auth - to connect github account
+
+
+---docker
+-----github gist traversy media
+https://gist.github.com/bradtraversy/89fad226dc058a41b596d586022a9bd3
+docker container run -it -p 3000:3000  //Interactive mode
+docker cointainer run -d -p 3000:3000  // detached mode
+docker ps
+docker container rm myapche -f //force remove a container
+
+---courses
+Node js
+https://1337x.to/torrent/3839736/Udemy-The-Complete-Node-js-Developer-Course-3rd-Edition-FTU/
+
+
+Client ID ac551fc9ed324649bec6a032c473b4a4
+Client Secret 5f70307a00ff42c284cf25696cd47072
+
+//randomuser api
+https://randomuser.me/api/?result=200
+
+//DOCKER  CONFIG
+FROM node:17-alpine
+
+RUN apk update && apk add bash
+
+WORKDIR /usr/src/react-docker
+
+COPY ./ ./
+
+RUN npm install 
+
+CMD ["/bin/bash"]
+
+---------
