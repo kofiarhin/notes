@@ -2,6 +2,7 @@
 GET https://api.themoviedb.org/3/trending/movie/week?api_key=ca357c71903c409f2ce08d61e75700a6
 
 
+Getting cast GET https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=YOUR_API_KEY
 ///mic url
 https://www.amazon.co.uk/Blue-Recording-Streaming-Condenser-Adjustable/dp/B00N1YPXW2/ref=sr_1_1?crid=29LMPCV3YK4MF&dchild=1&keywords=blue%2Byeti%2Bpro%2Busb%2Bmicrophone&qid=1615205212&quartzVehicle=106-1349&replacementKeywords=blue%2Bpro%2Busb%2Bmicrophone&sprefix=blue%2Byeti%2Bpro%2B%2Caps%2C276&sr=8-1&th=1
 
