@@ -1,3 +1,9 @@
+const apiKey = 'YOUR_API_KEY';
+const pageNumber = 1;
+
+const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=${pageNumber}`;
+
+
 //cpanel namespace
 https://server345.web-hosting.com:2083/cpsess5822070867/frontend/jupiter/filemanager/index.html?dir=%2fhome%2fdevkbtwj%2fpublic_html
 
