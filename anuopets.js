@@ -1,4 +1,21 @@
 //cose snippets 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cache Busting CSS</title>
+  <script>
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = `/styles.css?v=${Date.now()}`; // bust cache with timestamp
+    document.head.appendChild(link);
+  </script>
+</head>
+<body>
+  <h1>No more cached CSS</h1>
+</body>
+</html>
+
 import { useEffect, useRef, useState } from 'react';
 
 function LazyImage({ src, alt, ...rest }) {
