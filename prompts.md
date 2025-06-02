@@ -1,3 +1,26 @@
+# React App with Responsive Routing and SCSS Styling
+
+This template sets up a modern, responsive React app using React Router v6 and SCSS.
+
+## Pages Included
+
+- Home
+- About
+- Contact
+- Login
+- Register
+
+## Features
+
+- React Router v6 for SPA-style routing
+- SCSS for organized and reusable styles
+- Fully responsive design (mobile-first)
+- Navbar with navigation links
+- Modular file structure for easy scaling
+
+## File Structure
+
+
 # 🧠 Prompts: AI-First Fullstack Authentication System
 
 A series of build prompts for creating a modern full-stack authentication system using the MERN stack — tailored for AI-first platforms and future-of-work applications.
