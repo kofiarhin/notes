@@ -1,3 +1,47 @@
+# Full-Stack Application Boilerplate Prompt
+
+Generate a full-stack application boilerplate using **React with Vite** for the frontend and **Node.js with Express and Mongoose** for the backend.
+
+## Frontend Requirements
+- Use **React with Vite**.
+- Ensure the frontend is **responsive and mobile-friendly**.
+- Set up a **proxy to 'localhost'** for API requests during development.
+
+## Backend Requirements
+- Use **Node.js with Express and Mongoose**.
+- Configure **environment variables** using a `.env` file for:
+  - MongoDB connection string
+  - JWT secret
+
+## Authentication
+- Implement **JWT-based authentication**:
+  - On login, generate a token and set it as an **HTTP-only cookie**.
+  - Use `cookie-parser` middleware to parse cookies on the backend.
+  - Clear the cookie on logout.
+
+## API Routes
+Include example routes for:
+- `POST /signup`
+- `POST /login`
+- `POST /logout`
+- `GET /dashboard` (protected)
+
+## Project Structure
+- Use best practices:
+  - Separate concerns with clear folder structure
+  - Organize routes, controllers, models, and middlewares modularly
+
+## Additional Features
+- Setup and configure **CORS**
+- Include **error handling middleware**
+- Include **basic input validation**
+
+## Deliverable
+- Provide a **downloadable link to the complete project files**
+
+
+
+
 # React App with Responsive Routing and SCSS Styling
 
 This template sets up a modern, responsive React app using React Router v6 and SCSS.
