@@ -1,3 +1,18 @@
+# React Component Snippet Generator Prompt
+
+**Use Case:** Quickly generate modular, reusable React components for common UI features.
+
+---
+
+## Prompt
+
+```text
+Act as an AI assistant specialized in React development. Generate a functional React component that includes [feature: e.g., a form with validation, a data table with pagination, a responsive navbar, etc.]. Follow best practices, including using functional components and hooks where appropriate. Ensure the code is modular and easy to integrate into a larger application. Include any necessary imports and a brief explanation of the component's structure.
+
+
+
+
+
 # Full-Stack Application Boilerplate Prompt
 
 Generate a full-stack application boilerplate using **React with Vite** for the frontend and **Node.js with Express and Mongoose** for the backend.
