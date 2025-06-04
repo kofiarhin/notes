@@ -1,3 +1,98 @@
+# 🧠 Prompt: Responsive Linear Movie List in React
+
+## 🎯 Objective
+Build a clean, modular, responsive movie UI in React — inspired by a horizontal Netflix-style scroll layout.
+
+---
+
+## 📦 Requirements
+
+- Use **React** functional components
+- Style with **`.styles.scss`** (SCSS using modular naming convention)
+- Build a reusable `MovieCard` component that includes:
+  - Movie title
+  - Poster image
+  - Rating (circle UI)
+  - Genre, duration, release date
+  - Emojis representing audience vibes
+  - Overview
+  - "Watch Now" and "Play Trailer" buttons
+  - Action icons (like, bookmark, star)
+
+---
+
+## 📚 Components
+
+### 1. `MovieCard`
+- Reusable for each movie object
+- Styled in `MovieCard.styles.scss`
+- Props driven for full flexibility
+
+### 2. `LinearMovieList`
+- Horizontally scrollable list of `MovieCard`s
+- Scroll snap using `scroll-snap-type: x mandatory`
+- Hides native scrollbars
+- Responsive with the following widths:
+  - `300px` on desktop
+  - `250px` on tablets
+  - `200px` and `160px` on smaller screens
+- Styled in `LinearMovieList.styles.scss`
+
+---
+
+## 📱 Responsiveness (via SCSS)
+
+| Breakpoint        | Card Width |
+|-------------------|------------|
+| > 1024px (desktop) | 300px      |
+| ≤ 1024px (tablet)  | 250px      |
+| ≤ 768px (mobile)   | 200px      |
+| ≤ 480px (small)    | 160px      |
+
+---
+
+## ✅ Bonus Requirements
+
+- Hidden scrollbars on all platforms (`::-webkit-scrollbar { display: none; }`)
+- Snap-aligned scrolling
+- Optional section title via prop (e.g., `"Trending Now"`, `"New Releases"`)
+
+---
+
+## 🧠 Implementation Style
+
+- Clean code principles
+- Strong component separation
+- Responsive-first mindset
+- Simple to integrate into any React app
+
+---
+
+## 🔧 Output
+
+- React JSX components: `MovieCard`, `LinearMovieList`
+- SCSS files: `MovieCard.styles.scss`, `LinearMovieList.styles.scss`
+- A full `.md` summary explaining:
+  - File structure
+  - Features
+  - SCSS logic
+  - Upgrade ideas (e.g., infinite scroll, API integration)
+
+---
+
+## 🧪 Optional Extensions
+
+- Add infinite scroll
+- API integration (e.g., TMDB)
+- Vertical fallback mode for small screens
+- Modal trailer viewer
+- Lazy loading or skeleton loaders
+
+---
+
+> Prompt engineered for clean UI, responsive interaction, and scalable React codebase.
+
+
 # React Component Snippet Generator Prompt
 
 **Use Case:** Quickly generate modular, reusable React components for common UI features.
