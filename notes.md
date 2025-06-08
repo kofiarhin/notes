@@ -212,3 +212,136 @@ https://server345.web-hosting.com:2083/cpsess5822070867/frontend/jupiter/fileman
 **Tip**: Keep this file open in your editor sidebar or load it in Obsidian/Notion as a reusable scratchpad to launch new features, prompts, APIs, or layouts fast.
 
 ---
+
+
+---
+
+## 🧠 Prompt Engineering Snippets
+
+```text
+### Brainstorm Content Ideas
+"Give me 10 content ideas for [topic] tailored for [platform] to target [audience] with a [tone] voice."
+
+### Feature Naming
+"Suggest compelling, brandable names for a feature that [feature description]."
+```
+
+---
+
+## 🎯 Dev CLI Cheat Codes
+
+```sh
+# Start a local dev server
+npx serve
+
+# Format code
+npx prettier --write .
+
+# Find largest files in directory
+du -ah . | sort -rh | head -n 10
+```
+
+---
+
+## ⚙️ Common `.env` Variables
+
+```env
+# Backend
+PORT=5000
+DATABASE_URL=mongodb://localhost:27017/db
+JWT_SECRET=your_jwt_secret
+
+# APIs
+OPENAI_API_KEY=your_key
+TMDB_API_KEY=your_key
+```
+
+---
+
+## 📦 Useful NPM Libraries
+
+```text
+- dayjs – Lightweight date lib
+- clsx – Elegant className toggling
+- react-query – Async data fetching (w/ caching)
+- zustand – Simple state management
+- faker.js – Generate test data
+- dotenv – Manage env vars
+```
+
+---
+
+## 🎨 UI Component Starters
+
+```jsx
+// Reusable Card Component
+const Card = ({ title, children }) => (
+  <div className="rounded-lg shadow p-4 bg-white">
+    <h3 className="text-lg font-semibold">{title}</h3>
+    <div>{children}</div>
+  </div>
+);
+```
+
+---
+
+## 🧪 Sample Tests (Jest)
+
+```js
+test("adds numbers correctly", () => {
+  expect(1 + 2).toBe(3);
+});
+```
+
+---
+
+## 🌐 SEO / Metadata Template (React)
+
+```jsx
+import { Helmet } from 'react-helmet';
+
+<Helmet>
+  <title>Your Page Title</title>
+  <meta name="description" content="Short description of your app/page" />
+</Helmet>
+```
+
+---
+
+## 📸 Screenshot Tools
+
+```text
+- CleanShot X – macOS screenshots + screen recording
+- Snappy – Minimal screenshot annotation
+- Scribehow – Auto-record UI walkthroughs
+```
+
+---
+
+## 🧠 Creativity Triggers
+
+```text
+- Ask "what would this look like if it were effortless?"
+- Rebuild an existing idea in a radically different domain
+- Turn friction points into product features
+```
+
+---
+
+## 📂 Project Folder Template
+
+```txt
+my-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── hooks/
+│   └── App.jsx
+├── .env
+├── README.md
+└── package.json
+```
+
+---
