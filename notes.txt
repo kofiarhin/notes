@@ -1,3 +1,11 @@
+//sample prompt 
+
+You are a skilled content writer. Create a short blog post on “Benefits of meditation”.
+Tone: professional. Audience: busy professionals. Goal: inform and encourage daily mindfulness.
+Begin with a strong hook and follow with structured, high-quality content. Avoid fluff.
+
+
+
 //making groq request
 const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
   method: "POST",
