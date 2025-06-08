@@ -1,3 +1,8 @@
+//groq api key
+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
+
+
+
 //opem ai api key
 
 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
