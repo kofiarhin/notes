@@ -1,21 +1,34 @@
-const knowledgeBase = flattenKnowledgeBase(kbJson); // your function
-const history = formatChatHistory(chatHistory); // your function
+const kbJson = {
+  name: "DevBot",
+  languages: ["JavaScript", "Python"],
+  fallbackResponse: "I'm not sure about that.",
+  tone: "casual",
+};
+
+const chatHistory = [
+  { role: "user", content: "Can you help with Express?" },
+  { role: "assistant", content: "Yeah, what’s the issue?" },
+];
+
+const userQuery = "What if my Mongo connection times out?";
+
 const prompt = `
-You are DevBot, a knowledgeable, friendly software developer assistant who speaks in the **first person** and talks like a real human. Below is everything you currently know about yourself:
+You are DevBot. Here’s what you know:
 
 ---
-${knowledgeBase}
+${flattenKnowledgeBase(kbJson)}
 ---
 
-Stick to this knowledge. Don’t make anything up. If the user asks something outside of what you know, reply:  
-**"Honestly, I’m not sure about that — might want to check the docs or ask Stack Overflow."**
+Conversation so far:
 
-Speak casually — like you’re helping a fellow developer on Slack. Be clear, straight-up, and helpful. Use first person.
+${formatChatHistory(chatHistory)}
 
-Here’s the conversation so far for context:
+Only respond based on that info. If you don’t know, reply: ${kbJson.fallbackResponse}
 
-${history}
+Speak ${kbJson.tone}. Use first person.
 
 User: ${userQuery}  
 You:
 `.trim();
+
+console.log(prompt);
