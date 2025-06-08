@@ -1,0 +1,135 @@
+{
+  "name": "Joshua Kenneth Obu",
+  "biography": "Joshua Obu is a seasoned software developer and IT support specialist with over a decade of hands-on experience across front-end, back-end, and full-stack development. Known for his ability to design custom UI/UX applications, mentor junior developers, and troubleshoot complex systems, Joshua has a track record of delivering efficient digital solutions in both freelance and corporate environments.",
+  "contact": {
+    "phone": "+44 7863793051",
+    "email": "kofiarhin69@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/joshua-obu-9b49b72b/",
+    "github": "https://github.com/kofiarhin",
+    "codepen": "http://codepen.io/esco69/",
+    "youtube": "https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA"
+  },
+  "location": "United Kingdom",
+  "education": [
+    {
+      "institution": "University of Ghana",
+      "year": 2008,
+      "degree": "Bachelor of Arts",
+      "majors": ["Computer Science", "Economics"]
+    },
+    {
+      "institution": "Ghana Secondary Technical School",
+      "year": 2003,
+      "qualification": "Senior Secondary School Certificate Examination"
+    }
+  ],
+  "skills": {
+    "client_side": ["HTML", "CSS", "JavaScript"],
+    "server_side": ["Node.js"],
+    "frameworks": ["React.js", "React Native"],
+    "databases": ["MySQL", "MongoDB", "Firebase"],
+    "tools": ["SASS", "LESS", "Bootstrap"],
+    "version_control": ["GitHub"],
+    "design": ["Adobe XD", "Adobe Photoshop", "Adobe Illustrator"]
+  },
+  "languages": ["English", "Twi"],
+  "certifications": [
+    {
+      "title": "Full-Stack Web Development (self-taught)",
+      "issuer": "Various online platforms",
+      "year": "Ongoing"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Web Developer",
+      "employer": "Freelance",
+      "period": "January 2015 – Present",
+      "responsibilities": [
+        "Translating UI/UX designs to functional frontend/backend code",
+        "Providing accurate time and cost estimates for projects",
+        "Building responsive, scalable, and maintainable applications",
+        "Mentoring and coaching junior developers"
+      ],
+      "tech_stack": ["React.js", "Node.js", "MongoDB", "SASS"]
+    },
+    {
+      "title": "Technical Support Representative",
+      "employer": "Vodafone",
+      "period": "March 2012 – December 2014",
+      "responsibilities": [
+        "Troubleshooting internet connectivity and VoIP issues",
+        "Using remote support tools to resolve technical problems",
+        "Providing excellent customer service to retain clients"
+      ],
+      "tools": ["Remote Desktop", "VOIP systems"]
+    },
+    {
+      "title": "Network Administrator",
+      "employer": "Benyark Engineering Ltd",
+      "period": "September 2010 – December 2012",
+      "responsibilities": [
+        "Configuring and maintaining Windows Server environments",
+        "Managing user accounts and access controls",
+        "Performing network backups and disaster recovery operations"
+      ]
+    },
+    {
+      "title": "IT Support Officer (National Service)",
+      "employer": "Benyark Engineering Ltd",
+      "period": "August 2009 – August 2010",
+      "responsibilities": [
+        "Maintaining software and hardware systems",
+        "Training users on new technologies",
+        "Documenting repairs and service work"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Responsive Portfolio Website",
+      "description": "A clean, mobile-first portfolio built with React and SCSS modules",
+      "technologies": ["React", "SCSS", "Vite"],
+      "link": "https://github.com/kofiarhin"
+    },
+    {
+      "name": "E-Commerce Admin Dashboard",
+      "description": "Custom-built admin dashboard with dynamic charts and product management features.",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    }
+  ],
+  "interests": [
+    "Web development",
+    "UI/UX design",
+    "Open-source contributions",
+    "Teaching",
+    "YouTube content creation"
+  ],
+  "strengths": [
+    "Problem-solving",
+    "Attention to detail",
+    "Self-motivated",
+    "Strong communication skills"
+  ],
+  "personality_tags": [
+    "builder",
+    "mentor",
+    "designer",
+    "tech-savvy",
+    "self-starter"
+  ],
+  "references": [
+    {
+      "name": "Mr. Frederick Sedor",
+      "role": "Supervisor Client Account",
+      "company": "E-Services Ghana",
+      "phone": "0209292719"
+    },
+    {
+      "name": "Mr. Sandy Abrah",
+      "role": "Senior Developer",
+      "company": "Microsoft",
+      "phone": "+12068996475"
+    }
+  ]
+}
