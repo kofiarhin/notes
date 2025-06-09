@@ -1,0 +1,177 @@
+{
+  "categories": [
+    {
+      "id": "react-fundamentals",
+      "title": "React Fundamentals",
+      "articles": [
+        {
+          "id": "components-intro",
+          "title": "Introduction to Components",
+          "difficulty": "beginner",
+          "tags": ["components", "UI", "JSX"],
+          "content": "Components are reusable, isolated blocks of code that return JSX. They can be functional or class-based.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "function Greeting() {\n  return <h1>Hello, World!</h1>;\n}"
+            }
+          ],
+          "relatedTopics": ["JSX", "props", "state"],
+          "resources": [
+            "https://react.dev/learn/your-first-component"
+          ]
+        },
+        {
+          "id": "state-management",
+          "title": "State in React",
+          "difficulty": "beginner",
+          "tags": ["state", "hooks", "react"],
+          "content": "`useState` is a React Hook that lets you add state to function components.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "const [count, setCount] = useState(0);\n<button onClick={() => setCount(count + 1)}>{count}</button>"
+            }
+          ],
+          "relatedTopics": ["hooks", "events", "render"],
+          "resources": [
+            "https://react.dev/learn/state-a-components-memory"
+          ]
+        },
+        {
+          "id": "props-explained",
+          "title": "Understanding Props",
+          "difficulty": "beginner",
+          "tags": ["props", "data-flow", "components"],
+          "content": "Props (short for 'properties') let you pass data from parent to child components.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "function Welcome({ name }) {\n  return <h2>Hello, {name}!</h2>;\n}"
+            }
+          ],
+          "relatedTopics": ["components", "state", "data flow"],
+          "resources": [
+            "https://react.dev/learn/passing-props-to-a-component"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-concepts",
+      "title": "Advanced Concepts",
+      "articles": [
+        {
+          "id": "useeffect-lifecycle",
+          "title": "useEffect and Lifecycle",
+          "difficulty": "intermediate",
+          "tags": ["hooks", "lifecycle", "side-effects"],
+          "content": "`useEffect` lets you run side effects in function components like fetching data or subscribing to events.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "useEffect(() => {\n  console.log('Component mounted');\n}, []);"
+            }
+          ],
+          "relatedTopics": ["state", "fetch", "cleanup"],
+          "resources": [
+            "https://react.dev/learn/synchronizing-with-effects"
+          ]
+        },
+        {
+          "id": "context-api",
+          "title": "React Context API",
+          "difficulty": "intermediate",
+          "tags": ["context", "global state", "providers"],
+          "content": "Context provides a way to pass data through the component tree without having to pass props manually at every level.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "const ThemeContext = createContext();\n<ThemeContext.Provider value='dark'>...</ThemeContext.Provider>"
+            }
+          ],
+          "relatedTopics": ["state", "props", "data flow"],
+          "resources": [
+            "https://react.dev/learn/passing-data-deeply-with-context"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-practicals",
+      "title": "React Project Patterns",
+      "articles": [
+        {
+          "id": "quiz-app-patterns",
+          "title": "Designing a Quiz App in React",
+          "difficulty": "intermediate",
+          "tags": ["project", "state management", "hooks", "UI"],
+          "content": "A quiz app uses multiple pieces of state: current question index, selected answers, and score. Structure components around Question, QuizScreen, and Results.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "// Quiz state\nconst [current, setCurrent] = useState(0);\nconst [score, setScore] = useState(0);"
+            }
+          ],
+          "relatedTopics": ["state", "events", "conditional rendering"],
+          "resources": [
+            "https://react.dev/learn",
+            "https://flaviocopes.com/react-example-githubusers/"
+          ]
+        },
+        {
+          "id": "localstorage-integration",
+          "title": "Using LocalStorage in React",
+          "difficulty": "intermediate",
+          "tags": ["localStorage", "persistence", "hooks"],
+          "content": "You can use `useEffect` and `localStorage` to persist quiz state across sessions.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "useEffect(() => {\n  localStorage.setItem('score', score);\n}, [score]);"
+            }
+          ],
+          "relatedTopics": ["useEffect", "side effects", "data storage"],
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deployment-performance",
+      "title": "Deployment & Performance",
+      "articles": [
+        {
+          "id": "code-splitting",
+          "title": "Code Splitting with React",
+          "difficulty": "advanced",
+          "tags": ["lazy loading", "performance", "webpack"],
+          "content": "Use `React.lazy()` and `Suspense` to load components only when needed.",
+          "codeSamples": [
+            {
+              "language": "jsx",
+              "code": "const LazyComponent = React.lazy(() => import('./HeavyComponent'));\n<Suspense fallback={<Spinner />}><LazyComponent /></Suspense>"
+            }
+          ],
+          "relatedTopics": ["performance", "routing", "bundling"],
+          "resources": [
+            "https://react.dev/learn/code-splitting"
+          ]
+        },
+        {
+          "id": "hosting-options",
+          "title": "Where to Host React Apps",
+          "difficulty": "beginner",
+          "tags": ["hosting", "deployment", "Vite", "Netlify", "Vercel"],
+          "content": "React apps can be deployed to Vercel, Netlify, Firebase, or traditional hosting with a Node.js backend.",
+          "codeSamples": [],
+          "relatedTopics": ["deployment", "CI/CD", "hosting"],
+          "resources": [
+            "https://vitejs.dev/guide/static-deploy.html"
+          ]
+        }
+      ]
+    }
+  ]
+}
