@@ -17,9 +17,7 @@
             }
           ],
           "relatedTopics": ["JSX", "props", "state"],
-          "resources": [
-            "https://react.dev/learn/your-first-component"
-          ]
+          "resources": ["https://react.dev/learn/your-first-component"]
         },
         {
           "id": "state-management",
@@ -34,9 +32,7 @@
             }
           ],
           "relatedTopics": ["hooks", "events", "render"],
-          "resources": [
-            "https://react.dev/learn/state-a-components-memory"
-          ]
+          "resources": ["https://react.dev/learn/state-a-components-memory"]
         },
         {
           "id": "props-explained",
@@ -51,127 +47,126 @@
             }
           ],
           "relatedTopics": ["components", "state", "data flow"],
-          "resources": [
-            "https://react.dev/learn/passing-props-to-a-component"
-          ]
+          "resources": ["https://react.dev/learn/passing-props-to-a-component"]
         }
       ]
+    }
+  ],
+  "faq": [
+    {
+      "id": "what-is-react",
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces. It helps developers build fast, interactive UIs using components, state, and declarative rendering."
     },
     {
-      "id": "advanced-concepts",
-      "title": "Advanced Concepts",
-      "articles": [
-        {
-          "id": "useeffect-lifecycle",
-          "title": "useEffect and Lifecycle",
-          "difficulty": "intermediate",
-          "tags": ["hooks", "lifecycle", "side-effects"],
-          "content": "`useEffect` lets you run side effects in function components like fetching data or subscribing to events.",
-          "codeSamples": [
-            {
-              "language": "jsx",
-              "code": "useEffect(() => {\n  console.log('Component mounted');\n}, []);"
-            }
-          ],
-          "relatedTopics": ["state", "fetch", "cleanup"],
-          "resources": [
-            "https://react.dev/learn/synchronizing-with-effects"
-          ]
-        },
-        {
-          "id": "context-api",
-          "title": "React Context API",
-          "difficulty": "intermediate",
-          "tags": ["context", "global state", "providers"],
-          "content": "Context provides a way to pass data through the component tree without having to pass props manually at every level.",
-          "codeSamples": [
-            {
-              "language": "jsx",
-              "code": "const ThemeContext = createContext();\n<ThemeContext.Provider value='dark'>...</ThemeContext.Provider>"
-            }
-          ],
-          "relatedTopics": ["state", "props", "data flow"],
-          "resources": [
-            "https://react.dev/learn/passing-data-deeply-with-context"
-          ]
-        }
-      ]
+      "id": "what-is-jsx",
+      "question": "What is JSX and why use it?",
+      "answer": "JSX is a syntax extension that lets you write HTML-like code inside JavaScript. It gets compiled into React.createElement calls and improves readability when composing UIs."
     },
     {
-      "id": "project-practicals",
-      "title": "React Project Patterns",
-      "articles": [
-        {
-          "id": "quiz-app-patterns",
-          "title": "Designing a Quiz App in React",
-          "difficulty": "intermediate",
-          "tags": ["project", "state management", "hooks", "UI"],
-          "content": "A quiz app uses multiple pieces of state: current question index, selected answers, and score. Structure components around Question, QuizScreen, and Results.",
-          "codeSamples": [
-            {
-              "language": "jsx",
-              "code": "// Quiz state\nconst [current, setCurrent] = useState(0);\nconst [score, setScore] = useState(0);"
-            }
-          ],
-          "relatedTopics": ["state", "events", "conditional rendering"],
-          "resources": [
-            "https://react.dev/learn",
-            "https://flaviocopes.com/react-example-githubusers/"
-          ]
-        },
-        {
-          "id": "localstorage-integration",
-          "title": "Using LocalStorage in React",
-          "difficulty": "intermediate",
-          "tags": ["localStorage", "persistence", "hooks"],
-          "content": "You can use `useEffect` and `localStorage` to persist quiz state across sessions.",
-          "codeSamples": [
-            {
-              "language": "jsx",
-              "code": "useEffect(() => {\n  localStorage.setItem('score', score);\n}, [score]);"
-            }
-          ],
-          "relatedTopics": ["useEffect", "side effects", "data storage"],
-          "resources": [
-            "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
-          ]
-        }
-      ]
+      "id": "how-to-handle-events",
+      "question": "How do you handle events in React?",
+      "answer": "You handle events by passing functions to JSX attributes like `onClick`, `onChange`, etc. For example: `<button onClick={handleClick}>Click me</button>`."
     },
     {
-      "id": "deployment-performance",
-      "title": "Deployment & Performance",
-      "articles": [
-        {
-          "id": "code-splitting",
-          "title": "Code Splitting with React",
-          "difficulty": "advanced",
-          "tags": ["lazy loading", "performance", "webpack"],
-          "content": "Use `React.lazy()` and `Suspense` to load components only when needed.",
-          "codeSamples": [
-            {
-              "language": "jsx",
-              "code": "const LazyComponent = React.lazy(() => import('./HeavyComponent'));\n<Suspense fallback={<Spinner />}><LazyComponent /></Suspense>"
-            }
-          ],
-          "relatedTopics": ["performance", "routing", "bundling"],
-          "resources": [
-            "https://react.dev/learn/code-splitting"
-          ]
-        },
-        {
-          "id": "hosting-options",
-          "title": "Where to Host React Apps",
-          "difficulty": "beginner",
-          "tags": ["hosting", "deployment", "Vite", "Netlify", "Vercel"],
-          "content": "React apps can be deployed to Vercel, Netlify, Firebase, or traditional hosting with a Node.js backend.",
-          "codeSamples": [],
-          "relatedTopics": ["deployment", "CI/CD", "hosting"],
-          "resources": [
-            "https://vitejs.dev/guide/static-deploy.html"
-          ]
-        }
-      ]
+      "id": "what-is-useeffect",
+      "question": "What is useEffect used for?",
+      "answer": "`useEffect` is a hook for handling side effects like API calls, event listeners, or timers. It runs after the component renders and can clean up effects too."
+    },
+    {
+      "id": "difference-props-state",
+      "question": "What's the difference between props and state?",
+      "answer": "Props are read-only inputs passed to components from their parent. State is internal to the component and can change over time using `useState`."
+    },
+    {
+      "id": "how-to-pass-data",
+      "question": "How do you pass data between components?",
+      "answer": "You pass data down via props. To communicate up, pass a function as a prop and call it from the child."
+    },
+    {
+      "id": "when-to-use-context",
+      "question": "When should I use the Context API?",
+      "answer": "Use Context when you need to share state or functions deeply across the component tree without prop drilling, e.g., for themes or authenticated user state."
+    },
+    {
+      "id": "what-is-react-strict-mode",
+      "question": "What is React Strict Mode?",
+      "answer": "React Strict Mode is a development tool that highlights potential issues in your React app. It activates additional checks and warnings for components."
+    },
+    {
+      "id": "why-is-my-useeffect-running-twice",
+      "question": "Why is my useEffect running twice?",
+      "answer": "In React Strict Mode (dev only), React intentionally double-invokes functions like useEffect to catch side-effect bugs. This does not happen in production."
+    },
+    {
+      "id": "should-i-use-redux",
+      "question": "Should I use Redux?",
+      "answer": "Only use Redux if you have deeply nested components that require global state or complex state logic. For most apps, Context + useReducer or Zustand is lighter and faster."
+    },
+    {
+      "id": "what-are-custom-hooks",
+      "question": "What are custom hooks in React?",
+      "answer": "Custom hooks are functions that start with `use` and allow you to extract and reuse stateful logic across components, like `useAuth()` or `useForm()`."
+    },
+    {
+      "id": "how-to-prevent-re-renders",
+      "question": "How do I prevent unnecessary re-renders?",
+      "answer": "Use `React.memo` for pure components, `useMemo` to cache values, and `useCallback` to memoize functions passed as props. Also keep your component tree flat and clean."
+    },
+    {
+      "id": "can-react-run-on-the-server",
+      "question": "Can React run on the server?",
+      "answer": "Yes. Server-side rendering (SSR) is supported via frameworks like Next.js or using `ReactDOMServer.renderToString()` manually in a Node environment."
+    },
+    {
+      "id": "what-is-react-reconciliation",
+      "question": "What is React Reconciliation?",
+      "answer": "Reconciliation is the process React uses to update the DOM by comparing the new Virtual DOM with the previous one and applying minimal updates."
+    },
+    {
+      "id": "why-is-key-not-index",
+      "question": "Why shouldn't I use index as a key in a list?",
+      "answer": "Using indexes can cause bugs in reordering or dynamic lists. React may reuse elements incorrectly. Use unique IDs instead."
+    },
+    {
+      "id": "what-is-react-lazy",
+      "question": "What is React.lazy?",
+      "answer": "`React.lazy()` allows you to dynamically import components and render them only when needed. Use with `<Suspense>` for fallback UI while loading."
+    },
+    {
+      "id": "how-to-handle-auth",
+      "question": "How do you handle authentication in React?",
+      "answer": "Use Context or global state to track user info. Protect routes using conditional rendering or wrappers. Store tokens securely (HttpOnly cookies preferred)."
+    },
+    {
+      "id": "why-use-typescript",
+      "question": "Why use TypeScript with React?",
+      "answer": "TypeScript adds static typing, catches errors earlier, improves auto-complete, and makes refactoring safer. It's a major productivity booster for mid-to-large projects."
+    },
+    {
+      "id": "how-to-use-error-boundaries",
+      "question": "How do Error Boundaries work in React?",
+      "answer": "Wrap parts of your app with a class component that implements `componentDidCatch` and `getDerivedStateFromError`. It catches render-time errors and shows fallback UI."
+    },
+    {
+      "id": "what-is-hydration",
+      "question": "What is hydration in React?",
+      "answer": "Hydration is when React takes over a server-rendered HTML page and attaches event listeners to make it interactive on the client."
+    },
+    {
+      "id": "how-to-debug-performance",
+      "question": "How do you debug performance in React?",
+      "answer": "Use React DevTools profiler to identify slow renders. Check unnecessary re-renders, large components, and non-memoized dependencies in `useEffect` or props."
+    },
+    {
+      "id": "what-is-useReducer",
+      "question": "What is useReducer and when to use it?",
+      "answer": "`useReducer` is a React hook used for managing complex state logic, similar to Redux but local to the component. Use it when state updates depend on previous state or when there are multiple actions."
+    },
+    {
+      "id": "how-to-integrate-with-backend",
+      "question": "How do you integrate React with a backend?",
+      "answer": "Use `fetch()` or Axios in a `useEffect` to call backend APIs. Store results in `useState`, handle errors, and use a loading state for UX. Secure APIs with authentication."
     }
   ]
 }
