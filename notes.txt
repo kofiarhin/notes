@@ -1,5 +1,8 @@
-//sample prompt 
+//starter pack clone
+git@github.com:kofiarhin/kf-react-starter-pack-v1.git
 
+
+//sample prompt 
 You are a skilled content writer. Create a short blog post on “Benefits of meditation”.
 Tone: professional. Audience: busy professionals. Goal: inform and encourage daily mindfulness.
 Begin with a strong hook and follow with structured, high-quality content. Avoid fluff.
