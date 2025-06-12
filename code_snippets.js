@@ -1,5 +1,8 @@
 //a fuction that takes query value and accepts json
 //and returns match chunk
+
+const jsonData = {};
+const query = "Can I use my plan when I travel internationally?";
 const getRelevantChunksFromJSON = (query, jsonData, maxResults = 3) => {
   const chunks = [];
 
