@@ -1,0 +1,400 @@
+{
+  "company": {
+    "name": "ConnectSphere",
+    "description": "A global telecommunications provider offering mobile, broadband, and enterprise services across 20 countries.",
+    "founded": 2015,
+    "mission": "Empowering individuals and businesses with cutting-edge communication technologies.",
+    "vision": "To be the most trusted telecom provider, delivering unparalleled connectivity and customer experience.",
+    "headquarters": "San Francisco, CA, USA",
+    "support_channels": {
+      "phone": "1-800-CONNECT (1-800-266-6328)",
+      "email": "support@connectsphere.com",
+      "live_chat": "Available on www.connectsphere.com and mobile app",
+      "social_media": "@ConnectSphere on X, Facebook, Instagram"
+    },
+    "operating_hours": "24/7, 365 days a year",
+    "website": "www.connectsphere.com"
+  },
+  "products_and_services": {
+    "mobile_services": {
+      "prepaid_plans": [
+        {
+          "name": "FlexLite",
+          "price": "$20/month",
+          "features": {
+            "data": "5GB 5G",
+            "talk_text": "Unlimited in US, Canada, Mexico",
+            "hotspot": "1GB"
+          }
+        },
+        {
+          "name": "FlexPlus",
+          "price": "$35/month",
+          "features": {
+            "data": "15GB 5G",
+            "talk_text": "Unlimited international texting",
+            "hotspot": "5GB"
+          }
+        },
+        {
+          "name": "FlexMax",
+          "price": "$50/month",
+          "features": {
+            "data": "Unlimited 5G (35GB high-speed, then throttled)",
+            "roaming": "Free in 50+ countries",
+            "hotspot": "10GB"
+          }
+        }
+      ],
+      "postpaid_plans": [
+        {
+          "name": "ConnectBasic",
+          "price": "$45/month",
+          "features": {
+            "data": "20GB 5G",
+            "talk_text": "Unlimited",
+            "cloud_storage": "10GB"
+          }
+        },
+        {
+          "name": "ConnectPro",
+          "price": "$60/month",
+          "features": {
+            "data": "Unlimited 5G (50GB high-speed)",
+            "international_calling": "30 countries",
+            "streaming": "ConnectSphere Stream (ad-free)"
+          }
+        },
+        {
+          "name": "ConnectFamily",
+          "price": "$120/month for 4 lines",
+          "features": {
+            "data": "Unlimited 5G per line (40GB high-speed each)",
+            "security": "Family security package (parental controls, device tracking)",
+            "router": "Free ConnectSphere Home Wi-Fi router"
+          }
+        }
+      ],
+      "add_ons": [
+        {
+          "name": "International Roaming Pack",
+          "price": "$10",
+          "details": "1GB data, valid for 7 days"
+        },
+        {
+          "name": "Extra Hotspot Data",
+          "price": "$5",
+          "details": "2GB"
+        },
+        {
+          "name": "ConnectSphere Stream Premium",
+          "price": "$10/month",
+          "details": "4K streaming, offline downloads"
+        }
+      ]
+    },
+    "home_broadband": [
+      {
+        "name": "Basic Broadband",
+        "price": "$40/month",
+        "features": {
+          "speed": "100 Mbps download",
+          "use_case": "Streaming and browsing",
+          "extras": "Free modem rental"
+        }
+      },
+      {
+        "name": "FiberFast",
+        "price": "$60/month",
+        "features": {
+          "speed": "500 Mbps download/upload",
+          "use_case": "Multiple devices, gaming",
+          "extras": "Free installation"
+        }
+      },
+      {
+        "name": "FiberElite",
+        "price": "$80/month",
+        "features": {
+          "speed": "1 Gbps download/upload",
+          "extras": [
+            "ConnectSphere Smart Home Hub",
+            "Priority technical support"
+          ]
+        }
+      }
+    ],
+    "enterprise_solutions": [
+      {
+        "name": "ConnectOffice",
+        "price": "Starting at $200/month",
+        "features": {
+          "data": "Customizable (100GB–1TB)",
+          "phone_system": "VoIP with 10+ extensions",
+          "support": "Dedicated account manager"
+        }
+      },
+      {
+        "name": "ConnectSecure",
+        "price": "$500/month",
+        "features": {
+          "security": "Managed cybersecurity services",
+          "network": "Private 5G network",
+          "monitoring": "24/7"
+        }
+      },
+      {
+        "name": "CloudConnect",
+        "price": "$300/month",
+        "features": {
+          "storage": "Cloud storage and collaboration tools",
+          "integrations": ["Microsoft 365", "Google Workspace"],
+          "backup": "Data redundancy"
+        }
+      }
+    ],
+    "devices": {
+      "smartphones": [
+        "iPhone 15 series",
+        "Samsung Galaxy S25",
+        {
+          "name": "ConnectSphere Pulse",
+          "price": "$499",
+          "details": "Proprietary 5G phone"
+        }
+      ],
+      "tablets": [
+        "iPad Pro",
+        "Samsung Galaxy Tab",
+        {
+          "name": "ConnectSphere Slate",
+          "price": "$299"
+        }
+      ],
+      "smart_home_devices": [
+        {
+          "name": "ConnectSphere Smart Hub",
+          "price": "$99",
+          "details": "Controls smart lights, thermostats, security cameras"
+        },
+        {
+          "name": "ConnectSphere Cam",
+          "price": "$149",
+          "details": "4K security camera with cloud storage"
+        }
+      ],
+      "financing": "0% interest for 24 months on devices over $200 with approved credit"
+    },
+    "streaming_service": {
+      "name": "ConnectSphere Stream",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "$10/month",
+          "features": ["HD streaming", "2 simultaneous streams"]
+        },
+        {
+          "name": "Premium",
+          "price": "$15/month",
+          "features": ["4K streaming", "4 simultaneous streams", "Offline downloads"]
+        }
+      ],
+      "content": ["Movies", "TV shows", "Live sports", "ConnectSphere Originals"]
+    }
+  },
+  "policies": {
+    "billing_and_payments": {
+      "cycle": "Monthly, starting on activation date",
+      "methods": ["Credit/debit cards", "Bank transfer", "PayPal", "ConnectSphere Wallet"],
+      "late_payments": {
+        "fee": "$10 after 7-day grace period",
+        "suspension": "After 14 days"
+      },
+      "auto_pay_discount": "$5/month",
+      "refunds": {
+        "service": "Full refund within 14 days if no usage",
+        "device": "Subject to $25 restocking fee"
+      }
+    },
+    "cancellation_and_termination": {
+      "prepaid_plans": "No fees, service ends at billing cycle",
+      "postpaid_plans": "$50 fee if canceled within 12 months",
+      "broadband": "$100 fee for contracts after June 1, 2024",
+      "device_financing": "Remaining balance due upon cancellation"
+    },
+    "network_coverage": {
+      "5g": "95% of urban areas",
+      "4g_lte": "Rural areas",
+      "map": "www.connectsphere.com/coverage",
+      "roaming_partners": "200+ global carriers"
+    },
+    "privacy": {
+      "compliance": ["GDPR", "CCPA", "Local regulations"],
+      "data_usage": "Anonymous analytics, opt-out available",
+      "third_party_sharing": "No data sold, shared with consent or for service delivery"
+    }
+  },
+  "troubleshooting": {
+    "mobile_connectivity": {
+      "no_signal": [
+        "Check coverage map",
+        "Toggle airplane mode",
+        "Restart device",
+        "Ensure SIM card is inserted"
+      ],
+      "slow_data": [
+        "Verify plan’s data limit",
+        "Check for network congestion (6–9 PM)",
+        "Move to better coverage area"
+      ],
+      "dropped_calls": [
+        "Update device software",
+        "Disable Wi-Fi calling if unstable",
+        "Contact support for tower diagnostics"
+      ]
+    },
+    "broadband": {
+      "no_internet": [
+        "Power cycle modem/router (unplug 30 seconds)",
+        "Check outages at www.connectsphere.com/outages",
+        "Ensure cables are connected"
+      ],
+      "slow_speeds": [
+        "Run speed test at www.connectsphere.com/speedtest",
+        "Reduce connected devices",
+        "Upgrade plan if needed"
+      ],
+      "wifi_issues": [
+        "Change Wi-Fi channel",
+        "Update router firmware",
+        "Relocate router centrally"
+      ]
+    },
+    "devices": {
+      "smartphone_tablet_wont_turn_on": [
+        "Charge for 30 minutes",
+        "Soft reset (power button 10 seconds)",
+        "Contact support for warranty repair"
+      ],
+      "smart_hub_not_connecting": [
+        "Ensure device compatibility",
+        "Update firmware via app",
+        "Reset to factory settings"
+      ]
+    }
+  },
+  "faqs": {
+    "general": [
+      {
+        "question": "What is ConnectSphere’s coverage like?",
+        "answer": "5G in 95% of urban areas, 4G LTE in rural areas. Check www.connectsphere.com/coverage."
+      },
+      {
+        "question": "How do I activate my service?",
+        "answer": "Activate at www.connectsphere.com/activate, via app, or call 1-800-CONNECT."
+      },
+      {
+        "question": "Can I keep my phone number?",
+        "answer": "Yes, provide current carrier details during activation."
+      }
+    ],
+    "billing_and_plans": [
+      {
+        "question": "How do I view my bill?",
+        "answer": "Log in at www.connectsphere.com or use the app."
+      },
+      {
+        "question": "Can I change my plan mid-cycle?",
+        "answer": "Yes, changes effective next cycle. Contact support for immediate changes (prorated charges)."
+      },
+      {
+        "question": "What happens if I exceed my data limit?",
+        "answer": "Prepaid: Data stops. Postpaid: Throttled to 2G or purchase additional data."
+      }
+    ],
+    "technical_support": [
+      {
+        "question": "Why is my internet slow?",
+        "answer": "Possible causes: congestion, high device count, plan limits. Run speed test and contact support."
+      },
+      {
+        "question": "How do I set up my ConnectSphere Smart Hub?",
+        "answer": "Use ConnectSphere app setup wizard to pair with devices."
+      },
+      {
+        "question": "What is the warranty on devices?",
+        "answer": "1-year limited warranty on ConnectSphere devices; extended warranties available."
+      }
+    ],
+    "streaming_and_add_ons": [
+      {
+        "question": "How do I access ConnectSphere Stream?",
+        "answer": "Included with ConnectPro/ConnectFamily or standalone at www.connectsphere.com/stream."
+      },
+      {
+        "question": "Can I use international roaming?",
+        "answer": "Included in FlexMax/ConnectPro. Add-on packs available for other plans."
+      }
+    ]
+  },
+  "support_scripts": {
+    "greeting": "Thank you for contacting ConnectSphere! How can I assist you today?",
+    "billing_inquiry": "I’d be happy to help with your billing question. Could you specify if you’re asking about your current bill, payment options, or something else?",
+    "technical_issue": "I’m sorry to hear you’re experiencing an issue. Could you describe the problem? For example, is it related to mobile data, broadband, or a device?",
+    "plan_upgrade_downgrade": "I can help you explore plan options. Are you looking to upgrade for more data or features, or downgrade to save on costs? Let me pull up the best options for you.",
+    "escalation": "I understand this issue may need further attention. I’ll escalate your case to our specialized support team. Can you confirm your account number or registered email?"
+  },
+  "metrics_and_slas": {
+    "first_response_time": "Within 2 minutes for live chat, 24 hours for email",
+    "issue_resolution_time": "80% resolved within 24 hours",
+    "customer_satisfaction_goal": "90% positive feedback",
+    "network_uptime": "99.9% for 5G and broadband"
+  },
+  "training_guidelines": {
+    "tone": "Friendly, professional, empathetic, clear, concise",
+    "personalization": "Use customer name if provided, reference account details",
+    "proactive_solutions": "Suggest troubleshooting or plan upgrades based on needs",
+    "escalation_triggers": [
+      "Billing disputes over $100",
+      "Repeated technical issues",
+      "Customer frustration"
+    ],
+    "knowledge_updates": "Sync with ConnectSphere system for real-time plan changes, outages, promotions"
+  },
+  "sample_scenarios": [
+    {
+      "scenario": "Slow Internet",
+      "customer": "My internet is really slow, and I’m on the FiberFast plan.",
+      "response": "I’m sorry to hear your internet is slow. Let’s troubleshoot. First, can you run a speed test at www.connectsphere.com/speedtest and share the results? Also, how many devices are connected to your network?"
+    },
+    {
+      "scenario": "Plan Inquiry",
+      "customer": "What’s the difference between FlexPlus and FlexMax?",
+      "response": "Great question! FlexPlus ($35/month) offers 15GB of 5G data, unlimited international texting, and 5GB of hotspot data. FlexMax ($50/month) provides unlimited 5G data (35GB high-speed), free roaming in 50+ countries, and 10GB of hotspot data. Would you like me to check which plan best fits your usage?"
+    },
+    {
+      "scenario": "Device Issue",
+      "customer": "My ConnectSphere Pulse won’t turn on.",
+      "response": "Let’s try a few steps to get your Pulse working. Please charge it for 30 minutes, then hold the power button for 10 seconds to perform a soft reset. If it still doesn’t turn on, I can check your warranty status. Can you provide your account number or the device’s serial number?"
+    }
+  ],
+  "promotional_offers": [
+    {
+      "name": "New Customer Promo",
+      "details": "50% off first month on any postpaid plan with code NEWCONNECT25"
+    },
+    {
+      "name": "Bundle Deal",
+      "details": "Sign up for FiberElite and ConnectPro, get ConnectSphere Stream Premium free for 6 months"
+    },
+    {
+      "name": "Refer-a-Friend",
+      "details": "$25 credit for referrer and referee after successful activation"
+    },
+    {
+      "name": "Student Discount",
+      "details": "10% off any plan with valid .edu email"
+    }
+  ],
+  "last_updated": "2025-06-12"
+}
