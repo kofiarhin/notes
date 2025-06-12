@@ -1,3 +1,5 @@
+//a fuction that takes query value and accepts json
+//and returns match chunk
 const getRelevantChunksFromJSON = (query, jsonData, maxResults = 3) => {
   const chunks = [];
 
