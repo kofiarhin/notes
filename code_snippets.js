@@ -1,3 +1,67 @@
+//voice generator component
+import React, { useEffect, useState } from 'react';
+
+const TextToSpeech = ({ defaultText = '', voice = 'UK English Female', buttonLabel = '🔊 Speak' }) => {
+  const [text, setText] = useState(defaultText);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://code.responsivevoice.org/responsivevoice.js?key=';
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
+
+  const handleSpeak = () => {
+    if (window.responsiveVoice) {
+      window.responsiveVoice.speak(text, voice);
+    } else {
+      console.warn('ResponsiveVoice not loaded yet.');
+    }
+  };
+
+  return (
+    <div style={styles.wrapper}>
+      <textarea
+        style={styles.textarea}
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        rows={4}
+        placeholder="Type something to speak..."
+      />
+      <button style={styles.button} onClick={handleSpeak}>
+        {buttonLabel}
+      </button>
+    </div>
+  );
+};
+
+const styles = {
+  wrapper: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '1rem',
+    maxWidth: '600px',
+    margin: 'auto',
+  },
+  textarea: {
+    padding: '1rem',
+    fontSize: '1rem',
+    resize: 'vertical',
+  },
+  button: {
+    padding: '0.75rem 1.5rem',
+    fontSize: '1rem',
+    background: '#333',
+    color: '#fff',
+    border: 'none',
+    cursor: 'pointer',
+  },
+};
+
+export default TextToSpeech;
+
+
+
 //a fuction that takes query value and accepts json
 //and returns match chunk
 
