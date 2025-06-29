@@ -1,3 +1,9 @@
+//namecheap url
+https://www.namecheap.com
+
+//cpanel login
+https://server345.web-hosting.com:2083/cpsess4200318636/frontend/jupiter/filemanager/index.html
+
 //coaching-mentorship app sample
 https://www.youraveragetechbro.com/
 
