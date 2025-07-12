@@ -1,0 +1,152 @@
+{
+  "currency": "GBP",
+  "delivery": {
+    "fee": 5,
+    "note": "Flat delivery fee for all orders",
+    "minOrder": 0,
+    "deliveryTimeEstimate": "30-45 min"
+  },
+  "categories": [
+    {
+      "name": "Main Dishes",
+      "items": [
+        {
+          "name": "Kenkey",
+          "description": "Traditional fermented corn dough served hot.",
+          "price": 1.8,
+          "available": true
+        },
+        {
+          "name": "Waakye",
+          "description": "Ghanaian rice and beans served with extras.",
+          "variants": [
+            {
+              "name": "Big Pack",
+              "price": 13,
+              "includes": ["meat", "fish", "egg", "gari", "spaghetti", "stew", "shito"],
+              "available": true
+            },
+            {
+              "name": "Small Pack",
+              "price": 8,
+              "includes": ["meat", "gari", "spaghetti", "stew", "shito"],
+              "available": true
+            }
+          ],
+          "available": true
+        },
+        {
+          "name": "Jollof Rice",
+          "description": "Jollof rice served with salad and choice of protein.",
+          "price": 13,
+          "options": [
+            { "name": "Protein", "choices": ["Meat", "Fish", "Chicken"] }
+          ],
+          "available": true
+        },
+        {
+          "name": "Fried Rice",
+          "description": "Fried rice served with chicken and salad.",
+          "price": 13,
+          "available": true
+        },
+        {
+          "name": "Roasted Tilapia",
+          "description": "Freshly roasted tilapia. Price varies with size.",
+          "priceRange": { "min": 9.99, "max": 20 },
+          "sizes": [
+            { "name": "Small", "price": 9.99 },
+            { "name": "Medium", "price": 14.99 },
+            { "name": "Large", "price": 19.99 }
+          ],
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Fishes",
+      "items": [
+        {
+          "name": "Spraat & Shrimps",
+          "description": "Combo of spraat and shrimps.",
+          "priceOptions": [
+            { "size": "Regular", "price": 8 },
+            { "size": "Large", "price": 16 },
+            { "size": "Mix", "price": 8 }
+          ],
+          "available": true
+        },
+        {
+          "name": "Red Fish",
+          "description": "Crispy fried red fish.",
+          "price": 8,
+          "available": true
+        },
+        {
+          "name": "Choofi",
+          "description": "Deep-fried mackerel served fresh.",
+          "priceOptions": [
+            { "size": "Regular", "price": 8 },
+            { "size": "Large", "price": 16 }
+          ],
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Meat Pie",
+          "description": "Flaky pastry with filling options.",
+          "price": 1.5,
+          "options": [
+            { "name": "Filling", "choices": ["Tuna", "Corned Beef", "Minced Beef"] }
+          ],
+          "available": true
+        },
+        {
+          "name": "Cupcakes",
+          "description": "Box of cupcakes with personalization available.",
+          "priceOptions": [
+            { "quantity": 6, "price": 12 },
+            { "quantity": 12, "price": 21 }
+          ],
+          "addOns": [
+            { "name": "Personalization", "price": 6, "note": "For birthdays, baby showers, etc." }
+          ],
+          "flavours": ["Vanilla", "Chocolate", "Red Velvet", "Lemon Cake"],
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Sobolo",
+          "description": "Hibiscus drink, served chilled.",
+          "price": 3,
+          "available": true
+        },
+        {
+          "name": "Brukina",
+          "description": "Millet and milk drink.",
+          "price": 3.5,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Sauces & Extras",
+      "items": [
+        {
+          "name": "Shito (Hot Sauce)",
+          "description": "Ghanaian spicy sauce. Big bottles available on request.",
+          "price": 12,
+          "available": true
+        }
+      ]
+    }
+  ]
+}
