@@ -1,0 +1,586 @@
+{
+  "filesScanned": 25,
+  "filesMerged": 25,
+  "replacements": [
+    {
+      "file": "data/ai_prompts.md",
+      "changes": [
+        {
+          "type": "ENV_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "JWT_SECRET"
+        }
+      ]
+    },
+    {
+      "file": "data/Dev_Notes_Master.md",
+      "changes": [
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        }
+      ]
+    },
+    {
+      "file": "data/developer_knowledge_base.md",
+      "changes": [
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        }
+      ]
+    },
+    {
+      "file": "data/notes.md",
+      "changes": [
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "apiKey"
+        },
+        {
+          "type": "ENV_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "JWT_SECRET"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        }
+      ]
+    },
+    {
+      "file": "data/notes.txt",
+      "changes": [
+        {
+          "type": "GOOGLE_API_KEY",
+          "replacement": "<<REDACTED_GOOGLE_API_KEY>>"
+        },
+        {
+          "type": "INLINE_PASSWORD",
+          "replacement": "<<REDACTED_PASSWORD>>",
+          "key": "password"
+        },
+        {
+          "type": "INLINE_PASSWORD",
+          "replacement": "<<REDACTED_PASSWORD>>",
+          "key": "password"
+        },
+        {
+          "type": "INLINE_PASSWORD",
+          "replacement": "<<REDACTED_PASSWORD>>",
+          "key": "password"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "password"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "apikey"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "password"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "token"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "password"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "token"
+        },
+        {
+          "type": "KEY_VALUE",
+          "replacement": "<<REDACTED_KEY>>",
+          "key": "api-key"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        }
+      ]
+    },
+    {
+      "file": "package-lock.json",
+      "changes": [
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        },
+        {
+          "type": "GENERIC_SECRET",
+          "replacement": "<<REDACTED_SECRET>>"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
